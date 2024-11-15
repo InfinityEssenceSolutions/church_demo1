@@ -1845,13 +1845,24 @@ h1, h2, h3, h4, h5,
       color: #000000;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      font-size: 24px; }
+      font-size: 18px; }
       .ftco-navbar-light.scrolled .navbar-brand span {
         color: #ffd615; }
 
 .navbar-brand {
-  font-size: 40px;
-  font-family: "Great Vibes", cursive; }
+  font-size: 27px;
+  font-family: "sans serif"; }
+  @media (max-width: 1199.98px) {
+
+    .navbar-brand {
+        font-size: 15px;
+        font-family: "sans serif"; }
+        .ftco-navbar-light.scrolled .navbar-brand {
+            color: #000000;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            font-size: 16px; }
+  }
   .navbar-brand span {
     color: #ffd615; }
 
@@ -2603,27 +2614,7 @@ textarea.form-control {
   display: block;
   height: 400px;
   position: relative; }
-  .gallery .icon {
-    width: 60px;
-    height: 60px;
-    margin: 0 auto;
-    z-index: 0;
-    opacity: 0;
-    position: relative;
-    -moz-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease;
-    -webkit-transition: all 0.6s ease;
-    -ms-transition: all 0.6s ease;
-    transition: all 0.6s ease;
-    background: #ffd615;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%; }
-    .gallery .icon span {
-      color: #fff; }
-  .gallery:hover .icon, .gallery:focus .icon {
-    opacity: 1; }
+
 
 .ftco-footer {
   font-size: 16px;
@@ -2661,9 +2652,9 @@ textarea.form-control {
   .ftco-footer .ftco-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000000; }
+    color: #ffffff; }
     .ftco-footer .ftco-heading-2.logo {
-      font-family: "Great Vibes", cursive;
+      font-family: "sen serif";
       font-size: 30px; }
       .ftco-footer .ftco-heading-2.logo span {
         color: #ffd615; }
